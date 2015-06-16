@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <Preference
+        android:key="pref_power"
+        android:title="Advance Power Menu" />
+    <Preference
+        android:key="pref_gb"
+        android:title="GravityBox" />
+    <Preference
+        android:key="pref_viperfx"
+        android:title="ViperFX" />
+    <Preference
+        android:key="pref_engineering_mode"
+        android:title="Engineering Mode" />
+    <Preference
+        android:key="pref_quantum_themer_settings"
+        android:title="Themer Settings" />
+    <Preference
+        android:key="pref_rom_faq"
+        android:title="ROM FAQ" />
+
+    <Preference
+        android:key="pref_about_rom"
+        android:title="About ROM" />
+
+</PreferenceScreen>

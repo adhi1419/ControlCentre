@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <Preference
+        android:key="pref_battery_icon"
+        android:title="Battery Icon" />
+    <Preference
+        android:key="pref_lockscreen"
+        android:title="Lockscreen" />
+
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/fonts_entries"
+        android:entryValues="@array/fonts_values"
+        android:key="fonts_list"
+        android:title="System Font" />
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/anims_entries"
+        android:entryValues="@array/anims_values"
+        android:key="anims_list"
+        android:title="Framework Animation" />
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/recent_panel_entries"
+        android:entryValues="@array/recent_panel_values"
+        android:key="recent_panel_style_list"
+        android:title="Recent App Style" />
+
+</PreferenceScreen>

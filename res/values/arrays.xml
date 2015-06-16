@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="fonts_entries">
+        <item name="font_1">Default</item>
+        <item name="font_2">Century Gothic</item>
+        <item name="font_3">ChocoCooky</item>
+        <item name="font_4">Segoe</item>
+        <item name="font_5">Ubuntu</item>
+        <item name="font_6">Zekton</item>
+    </string-array>
+    <string-array name="fonts_values">
+        <item name="font_1">0</item>
+        <item name="font_2">1</item>
+        <item name="font_3">2</item>
+        <item name="font_4">3</item>
+        <item name="font_5">4</item>
+        <item name="font_6">5</item>
+    </string-array>
+    <string-array name="anims_entries">
+        <item name="default">Default</item>
+        <item name="blur">Blur</item>
+        <item name="bounce">Bounce</item>
+        <item name="chaos">Chaos</item>
+        <item name="chaos_revenge">Chaos Revenge</item>
+        <item name="drop_in">Drop In</item>
+        <item name="flip">Flip</item>
+        <item name="fly_in">Fly In</item>
+        <item name="fly_in_and_flip">Fly in and Flip</item>
+        <item name="fold">Fold</item>
+        <item name="gingerbread">Gingerbread</item>
+        <item name="rubik">Rubik</item>
+        <item name="ics">ICS</item>
+        <item name="thepsynflip">Thepsynflip</item>
+        <item name="thepsynshift">Thepsynshift</item>
+        <item name="twisted">Twisted</item>
+        <item name="twisted_2">Twisted 2</item>
+        <item name="twisted_rubik">Twisted Rubik</item>
+        <item name="twisted_rubik_2">Twisted Rubik 2</item>
+        <item name="vortex">Vortex</item>
+    </string-array>
+    <string-array name="anims_values">
+        <item name="blur">0</item>
+        <item name="bounce">1</item>
+        <item name="chaos">2</item>
+        <item name="chaos_revenge">3</item>
+        <item name="drop_in">4</item>
+        <item name="flip">5</item>
+        <item name="fly_in">6</item>
+        <item name="fly_in_and_flip">7</item>
+        <item name="fold">8</item>
+        <item name="gingerbread">9</item>
+        <item name="rubik">10</item>
+        <item name="ics">11</item>
+        <item name="thepsynflip">12</item>
+        <item name="thepsynshift">13</item>
+        <item name="twisted">14</item>
+        <item name="twisted_2">15</item>
+        <item name="twisted_rubik">16</item>
+        <item name="twisted_rubik_2">17</item>
+        <item name="vortex">18</item>
+        <item name="default">19</item>
+    </string-array>
+    <string-array name="recent_panel_entries">
+        <item name="default">Default</item>
+        <item name="sense">HTC Sense</item>
+    </string-array>
+    <string-array name="recent_panel_values">
+        <item name="default">0</item>
+        <item name="sense">1</item>
+    </string-array>
+
+</resources>

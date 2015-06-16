@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Control Centre</string>
+    <string name="title_activity_about_rom">About Rom</string>
+    <string name="title_activity_faq">FAQ</string>
+    <string name="title_activity_device_info">About Phone</string>
+
+    <!-- Layout Items -->
+    <string name="button_apply">Apply</string>
+    <string name="button_select">Select Theme</string>
+    <string name="image_view_preview_description">Preview of Theme</string>
+    <string name="text_view_select_theme">Choose any Theme by clicking the button below..</string>
+
+    <!-- Java Code Strings -->
+    <string name="invalid_theme">This is not a valid Theme</string>
+    <string name="no_preview">Preview Unavailable</string>
+    <string name="reboot_dialog_title">Reboot</string>
+    <string name="reboot_dialog_description">"The changes you made will only be committed after a Restart! What do you want me to do?"</string>
+    <string name="reboot_dialog_restart_now">Restart Now</string>
+    <string name="reboot_dialog_restart_later">Restart Later Maually</string>
+    <string name="about_dialog_description">Developed by: Adhithya Rajagopal\nCurrent Version: 1.0\nFor more info go to bit.ly/QuantumThemer</string>
+    <string name="about_dialog_okay">Okay</string>
+    <string name="no_root_dialog_title">Root Access not found</string>
+    <string name="no_root_dialog_description">Seems like your phone is not rooted..</string>
+    <string name="no_root_dialog_exit">Exit</string>
+    <string name="no_busybox_dialog_title">Busybox not found</string>
+    <string name="no_busybox_dialog_description">Seems like your phone does not have Busybox..\nHowever, you are rooted. You can Install busybox from Play Store</string>
+    <string name="no_busybox_dialog_exit">Exit</string>
+    <string name="no_busybox_download_from_play">Download from Play Sotre</string>
+    <string name="progress_dialog_title">Initializing..</string>
+
+    <!-- Preference Items -->
+    <string name="pref_cat_about_title">ABOUT</string>
+    <string name="pref_cat_util_title">UTILITIES</string>
+    <string name="pref_cat_preferences_title">PREFERENCES</string>
+    <string name="pref_init_setup_title">Re-run Environment Setup</string>
+    <string name="pref_restore_backup_title">Restore Backup</string>
+    <string name="pref_clean_up_files_title">Clean Up Theme Temp files</string>
+    <string name="pref_boot_title">Apply Theme on boot(Experimental)</string>
+    <string name="pref_root_title">Browse Root</string>
+    <string name="pref_file_chooser_title">Use 3rd Party File Chooser</string>
+    <string name="pref_developer_title">Developer</string>
+    <string name="pref_version_title">Current Version</string>
+    <string name="pref_init_setup_desc">Extract required files to SD Card</string>
+    <string name="pref_restore_backup_desc">Restore previously backed up Applications</string>
+    <string name="pref_clean_up_desc">Clears all extracted files</string>
+    <string name="pref_boot_desc">The Theme is applied on phone Startup as an init.d script</string>
+    <string name="pref_root_desc">Set Root as Initial Directory while browsing themes(Requires Restart of App)</string>
+    <string name="pref_file_chooser_desc">Use other File browsers Installed on Phone</string>
+    <string name="pref_developer_desc">Adhithya Rajagopal(Adhi1419 @ Xda)</string>
+    <string name="pref_version_desc">v1.1</string>
+
+    <!-- Menu Items -->
+    <string name="action_preferences">Settings</string>
+
+    <!-- aFileChooser Resource Values -->
+    <string name="empty_directory">Empty Directory</string>
+    <string name="storage_removed">Storage was removed or unmounted.</string>
+    <string name="choose_file">Select a file</string>
+    <string name="error_selecting_file">Error selecting File</string>
+
+    <!-- Myriad -->
+    <string name="about_myriad_text">Myriad is a simple and highly functional custom ROM for Mediatek (MT6589)  devices. It is based on pure AOSP and gives ultimate vanilla experience. It is based on Android 4.2.2 JellyBean. The ROM has a simplified UI and many powerful apps to control the ROM. It is user friendly and stable. Some of the unique features of this ROM are Floating apps including Float Caller , Xposed Framework with GravityBox for full customization ,OG Battery Mod for amazing battery styles, ViperFX for the best music Experience , Myriad Control Centre for complete control of your Phone. It uses some parts of Pure Performance tweaks and some of its own for best possible performance of the ROM and moreover these tweaks can easily be switched on and off. There are some other fun features like framework animation, custom fonts, HTC Sense Style Recent Task just to name a few. Overall this ROM is a solid package of all components which a daily user requires. </string>
+    <string name="faq_q_1">Q. Left Capacitive Button shows recent menu!</string>
+    <string name="faq_q_2">Q. How to change lockscreen wallpaper?</string>
+    <string name="faq_q_3">Q. Some features of Gravity Box doesn’t work!</string>
+    <string name="faq_q_4">Q. Quick Settings tiles have disappeared!</string>
+    <string name="faq_q_5">Q. Network Signal Bar disappears when orientation is changed!</string>
+    <string name="faq_q_6">Q. Dialer keypad not oriented properly!</string>
+    <string name="faq_q_7">Q. Mobile freezes while chaning recent app style!</string>
+    <string name="faq_q_8">Q. Themer is not working!</string>
+    <string name="faq_q_9">Q. Reboot Option not found in Power Menu pop up!</string>
+    <string name="faq_a_1">A. To accommodate the shortcut for floating apps the capacitive button have been reconfigured.\nLong press of left button will take you to floating apps launch pad. For the actual function of left capacitive buttons a 3 dot menu can be found in most of the apps</string>
+    <string name="faq_a_2">A. Go to Settings -> Control Centre -> UI Tab -> Lockscreen</string>
+    <string name="faq_a_3">A. This ROM has some stuff which work on custom framework and Gravity Box doesn’t support this. So some features won’t work. This is neither the ROM nor Gravity Box error</string>
+    <string name="faq_a_4">A. This happens as Gravity Box takes over the quick settings tiles. You can customize what tile you want by doing this\nGo to Settings -> Control Center-> General-> Gravity Box -> Status bar tweaks -> Quick Settings Management->Status bar Quick Settings titles</string>
+    <string name="faq_a_5">A. This usually doesn’t happen, but occurs when the screen orientation is changed continuously a couple of times. Although the signal bar disappears, the network connection is not interrupted.\nTo get back:\n1. Try switching data connection off and then on\n2. If the above doesn’t work , go to Settings-> SIM Management -> Switch the SIM off and on again</string>
+    <string name="faq_a_6">A. This is due to higher dpi of the mobiles which I ported from. I am trying to fix it. Rest assured all the dialer functions is working properly</string>
+    <string name="faq_a_7">A. Yes, this normal the mobile will freeze for a minute or so and then reboot itself.</string>
+    <string name="faq_a_8">A. If the themer fails to work check these\n1.	Make sure you have SD card\n2.	Go to Settings -> Control Centre -> General Tab-> Themer Settings -> Re Run Set Up Environment</string>
+    <string name="faq_a_9">A. This can easily be enabled, follow this\nGo to Settings-> Control Centre -> Gravity Box -> Power Tweaks -> Check Advanced Reboot Menu</string>
+
+    <!-- Others -->
+    <string name="device_info_default">Unknown</string>
+
+</resources>

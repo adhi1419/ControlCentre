@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/pref_cat_util_title" >
+        <Preference
+            android:key="init_setup"
+            android:summary="@string/pref_init_setup_desc"
+            android:title="@string/pref_init_setup_title" />
+        <Preference
+            android:key="clean_up_files"
+            android:summary="@string/pref_clean_up_desc"
+            android:title="@string/pref_clean_up_files_title" />
+        <Preference
+            android:key="restore_backup"
+            android:summary="@string/pref_restore_backup_desc"
+            android:title="@string/pref_restore_backup_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_cat_preferences_title" >
+        <CheckBoxPreference
+            android:key="theme_initd"
+            android:summary="@string/pref_boot_desc"
+            android:title="@string/pref_boot_title" />
+        <CheckBoxPreference
+            android:key="browse_root"
+            android:summary="@string/pref_root_desc"
+            android:title="@string/pref_root_title" />
+        <CheckBoxPreference
+            android:key="ext_file_browser"
+            android:summary="@string/pref_file_chooser_desc"
+            android:title="@string/pref_file_chooser_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_cat_about_title" >
+        <Preference
+            android:summary="@string/pref_developer_desc"
+            android:title="@string/pref_developer_title" />
+        <Preference
+            android:key="app_version"
+            android:summary="@string/pref_version_desc"
+            android:title="@string/pref_version_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

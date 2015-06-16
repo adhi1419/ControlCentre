@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:key="pref_zipalign"
+        android:title="Zipalign Apps on boot" />
+    <CheckBoxPreference
+        android:key="pref_optimize_ram"
+        android:title="Optimize RAM on boot" />
+    <CheckBoxPreference
+        android:key="pref_loopy_scrolling"
+        android:title="Loopy Smoothness" />
+    <CheckBoxPreference
+        android:key="pref_internet"
+        android:title="Internet Speed Tweaks" />
+    <CheckBoxPreference
+        android:key="pref_sqlite"
+        android:title="SQLite Optimization" />
+    <CheckBoxPreference
+        android:key="pref_sd_tweaks"
+        android:title="SD Card R/W Speed Tweaks" />
+    <CheckBoxPreference
+        android:key="pref_graphics"
+        android:title="Optimize Graphics" />
+    <CheckBoxPreference
+        android:key="pref_build_prop_tweaks"
+        android:title="build.prop tweaks" />
+    <CheckBoxPreference
+        android:key="pref_adblock"
+        android:title="Block Ads" />
+
+    <EditTextPreference
+        android:defaultValue="240"
+        android:key="pref_lcd_density"
+        android:title="Display Density" />
+
+</PreferenceScreen>

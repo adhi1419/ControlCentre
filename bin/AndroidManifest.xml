@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.adhi.controlcentre"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.adhi.controlcentre.activities.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.adhi.controlcentre.activities.General" />
+        <activity android:name="com.adhi.controlcentre.activities.Theme" />
+        <activity android:name="com.adhi.controlcentre.activities.Personalisation" />
+        <activity android:name="com.adhi.controlcentre.activities.Tweaks" />
+        <activity android:name="com.adhi.controlcentre.activities.Power" />
+        <activity
+            android:name="com.adhi.controlcentre.activities.Settings"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.adhi.quantumthemer.aFileChooser.FileChooserActivity"
+            android:label="aFileChooser" >
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT" />
+
+                <category android:name="android.intent.action.QUANTUMTHEMER" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.OPENABLE" />
+
+                <data android:mimeType="theme/qrt" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.adhi.controlcentre.activities.AboutRom"
+            android:label="@string/title_activity_about_rom" >
+        </activity>
+        <activity
+            android:name="com.adhi.controlcentre.activities.FAQ"
+            android:label="@string/title_activity_faq" >
+        </activity>
+        <activity
+            android:name="com.adhi.controlcentre.activities.DeviceInfo"
+            android:icon="@drawable/ic_myriad"
+            android:label="@string/title_activity_device_info"
+            android:theme="@android:style/Theme.Holo" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.adhi.controlcentre.activities.PlatLogoActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.adhi.controlcentre.activities.DessertCase"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.adhi.controlcentre.activities.MyriadPlatActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        </activity>
+    </application>
+
+</manifest>

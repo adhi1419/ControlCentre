@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Power Options" >
+        <Preference
+            android:key="reboot"
+            android:summary="Most of the changes requires a reboot to take effect"
+            android:title="Reboot" />
+        <Preference
+            android:key="reboot_quick"
+            android:summary="System will re-intialize"
+            android:title="Quick Reboot" />
+        <Preference
+            android:key="restart_systemui"
+            android:summary="Statusbar will be reinitialized"
+            android:title="Restart SystemUI" />
+        <Preference
+            android:key="reboot_recovery"
+            android:summary="Reboot into Recovery mode"
+            android:title="Reboot Recovery" />
+        <Preference
+            android:key="power_off"
+            android:summary="Powers Off your phone very quickly"
+            android:title="Quick Power Off" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

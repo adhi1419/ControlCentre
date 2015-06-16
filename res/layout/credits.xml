@@ -1,0 +1,119 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="6dip" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:text="Acer"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:text="Xolo"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:text="Google"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:text="rovo89"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:text="C3C076"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:text="Viper520"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:text="Zhuhang"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:text="Darklord"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+</LinearLayout>
